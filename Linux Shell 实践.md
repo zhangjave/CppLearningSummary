@@ -1,4 +1,8 @@
-# Linux Shell实践
+
+
+
+
+# Linux Shell  实践
 
 ## 获取当前目录
 
@@ -117,7 +121,7 @@ echo $time3
 ### 文件夹不存在则创建
 
 ```shell
-if [ ! -d "/data/"];then
+if [ ! -d "/data/" ];then
 	mkdir /data
 else
 	echo "文件夹已经存在"
@@ -137,7 +141,7 @@ fi
 ### 判断文件夹是否存在
 
 ```shell
-if [ -d "/data/"];then
+if [ -d "/data/" ];then
 	echo "文件夹存在"
 else
 	echo "文件夹不存在"
